@@ -1,0 +1,364 @@
+/*Texto*/
+
+.overpass {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    text-align: center;
+  }
+
+.texto-general{
+    font-size: 16px;
+}
+
+/*Espaciado seccion*/
+.espacio{
+    padding: 50px;
+}
+
+
+
+/*---------------------HEADER------------------------*/
+/*--------------xxxxxxxxxxxxxxxxxxxxx----------------*/
+/*Header*/
+.fondo-cabecera {
+    position: relative; 
+    background-color: hsl(356, 100%, 66%);
+    border-bottom-left-radius:  60px;
+    background-image: url(/Imagenes/bg-pattern-intro-desktop.svg);
+    background-size: 200%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    padding-bottom: 200px;
+    z-index: 1; 
+}
+
+.fondo-cabecera img{
+    width: 10px;
+}
+
+.navbar {
+    padding-top: 50px;
+  }
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+} 
+
+.sign-up{
+    background-color: white;
+    border-radius: 20px;
+    }
+
+
+/* Efecto hover en el menú desplegable */
+.navbar-nav .nav-item .dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: background-color 0.3s ease; 
+}
+
+.navbar-nav .nav-item .dropdown-menu:hover {
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+
+
+/*----BOTONES HEADER----*/
+    .btn1 {
+        color: hsl(356, 100%, 66%);
+        padding: 12px 26px;
+        cursor: pointer;
+        display: inline;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px 20px 20px 20px;
+        border: solid 1px;
+        font-weight: bold;
+      }
+      .btn2 {
+        color: hsl(0, 0%, 100%);
+        padding: 12px 24px;
+        cursor: pointer;
+        display: inline;
+        background-color: inherit;
+        border-radius: 20px 20px 20px 20px;
+        border: solid 1px;
+        font-weight: bold;
+      }
+      .btn3 {
+        color: hsl(0, 0%, 100%);
+        padding: 14px 28px;
+        cursor: pointer;
+        display: inline;
+        background-color: inherit;
+        border: none;
+        font-weight: bold;
+        border-radius: 20px 20px 20px 20px;
+      }
+      
+      .btn4 {
+        color: hsl(356, 100%, 66%);
+        padding: 14px 28px;
+        cursor: pointer;
+        display: inline;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px 20px 20px 20px;
+        border: solid 1px;
+        font-weight: bold;
+      }
+      
+      .btn1:hover {
+        background: rgba(255, 255, 255, 0.7);
+        transition: background-color 0.3s ease
+      }
+      .btn2:hover {
+        background: rgba(255, 255, 255, 0.7);
+      }
+      .btn3:hover {
+        background: rgba(255, 255, 255, 0.7);
+        transition: background-color 0.3s ease
+      }
+      .btn4:hover {
+        background: rgba(255, 255, 255, 0.7);
+        transition: background-color 0.3s ease
+      }
+      
+
+/*Clases para textos*/
+
+.titulo{
+    text-align: center;
+    color: white;
+    padding-top: 0%;
+    padding-bottom: 1px;
+}
+.subtitulo{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/*----Seccion 1----*/
+
+.flex-seccion{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+
+
+.primer-imagen img {
+    width: 1500px !important;
+    transform: scale(1.2);
+    position: relative;
+    right: -200px;
+}
+
+/*----SECCION TELEFONOS----*/
+/*Background del section 2 con los circulos*/
+
+.fondo-celulares{
+    background-image: url(/Imagenes/bg-pattern-circles.svg);
+    background-color: hsl(237, 17%, 21%);
+    background-repeat: no-repeat;
+    background-position-x: -50%;
+    background-position-y: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    position: relative;
+  }
+
+/*Acomodo celular*/
+
+.img-celular{
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    max-width: 100%;
+    display: inline;
+    padding-bottom: 40px;     
+}
+.flex-seccion-celular{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+
+.flex-section-celular-texto {
+    display: flex;
+    flex-direction: column !important;
+    color: hsl(0, 0%, 100%) !important;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    padding: 9%;
+  }
+
+  
+  .flex-section-celular-texto h2 {
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  
+  .flex-section-celular-texto p {
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  .flex-section-celular-texto div {
+    flex-grow: 1;
+  }
+  
+.texto-fondo-violeta{
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+/*----SECCION LAPTOP----*/
+.laptop-size{
+    width: 900px;
+    position: relative;
+    left: -200px;
+
+}
+
+.flex-seccion-laptop{
+    display: flex;
+    justify-content:center;
+    align-items:center ;    
+}
+
+
+/*----------FOOTER--------------/
+/*footer*/
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3C3D5C;
+    width: 100%;
+    padding: 5%;
+    border-top-right-radius: 60px;
+  }
+  
+  .footer-flex h2{
+    color: white;
+  }
+
+  .footer-flex div{
+    width: 100px;
+    text-align: left;
+    padding: 2px;
+  }
+  
+  .footer-flex ul{
+    padding-top:5px;
+    color: white;
+  }
+  
+  .footer-flex li{
+    padding-top:4px;
+    padding-bottom: 4px;
+  }
+  
+  
+  .lista ul {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0px;
+  }
+  .lista li {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+  }
+
+  .btn4 ul li button:hover {
+    border-bottom: 2px solid white; /* Subrayado debajo del botón */
+}
+
+
+
+/*Las malditas medias queries*/
+
+@media (max-width: 375px) {
+    .flex-seccion {
+        flex-direction: column-reverse !important;
+        justify-content: center;
+    }
+    .primer-imagen img {
+        width: 100%; /* ancho */
+        transform: none; /* escalado */
+        position: static; 
+    }
+
+    .flex-seccion-celular{
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    
+
+    /* Ajustar la imagen del celular*/
+    .img-celular {
+        position: unset;
+        width: 1000%; 
+        transform: scale(2.0); 
+    }
+
+    .fondo-celulares{
+        background-image: url(/Imagenes/bg-pattern-circles.svg);
+        background-color: hsl(237, 17%, 21%);
+        background-repeat: no-repeat;
+        background-position-x: +50%;
+        background-position-y: -50%;
+        background-size: 130%;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        position: relative;
+      }
+      .fondo-celulares .img{
+        width: 70%;
+      }
+
+    .flex-seccion-laptop{
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .laptop-size{
+        transform:scale(2.0);
+        justify-content: center;
+        position: static;
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        align-items: center;
+
+    }
+
+    .texto-container{
+        width: 150%;
+        text-align: center;
+    }
+
+    .footer-flex {
+        grid-gap: 10%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #111;
+        
+      }
+    .footer-flex .h2 {
+        font-size: 70px;
+    }
+    
+}

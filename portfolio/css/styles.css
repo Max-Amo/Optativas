@@ -1,0 +1,80 @@
+
+
+html{
+    font-size: 16px;
+}
+.color-nav{
+    background-color: #6B4E71;
+}
+.a{
+    background-color: #C2B2B4;
+}
+.mi-nombre{
+    font-size: 60px;
+    color: white;
+    padding: 20px;
+}
+.sub-nombre{
+    color: white;
+    padding-bottom: 25px;
+}
+
+.pf{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.ancho-texto{
+    max-width: 350px;
+    color: white;
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+
+.fondo-boton{
+    background-color: #C2B2B4;
+    width: 60px;
+}
+.form-control{
+    border: none;
+    border-bottom: 2px solid #C2B2B4;
+    border-radius: 0;
+}
+
+
+
+.margen{
+    margin: 20%;
+}
+.rosa{
+    background-color: magenta;
+}
+.verde{
+    background-color: green;
+}
+
+
+@media(max-width:375px){
+    .margen .col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
+
+
+/* Estilo general: formulario centrado */
+form {
+    margin: 0 auto;
+    max-width: 375px;
+    text-align: center;
+}
+
+/* Media query para pantallas más grandes */
+@media (min-width: 600px) {
+    form {
+        margin-left: 100px; /* Mover el formulario hacia la izquierda */
+        text-align: left; /* Cambiar el texto alineado a la izquierda */
+    }
+}

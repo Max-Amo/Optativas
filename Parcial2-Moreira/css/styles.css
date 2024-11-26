@@ -24,7 +24,7 @@
 /*Header*/
 .fondo-cabecera {
     position: relative; 
-    background-color: hsl(356, 100%, 66%);
+    background-color:blueviolet;
     border-bottom-left-radius:  60px;
     background-image: url(/Imagenes/bg-pattern-intro-desktop.svg);
     background-size: 200%; 

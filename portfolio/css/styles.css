@@ -1,30 +1,42 @@
 
 
-html{
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
     font-size: 16px;
 }
-.color-nav{
+
+/* Navegación */
+.color-nav {
     background-color: #6B4E71;
 }
-.a{
+
+.a {
     background-color: #C2B2B4;
 }
-.mi-nombre{
+
+.mi-nombre {
     font-size: 60px;
     color: white;
     padding: 20px;
 }
-.sub-nombre{
+
+.sub-nombre {
     color: white;
     padding-bottom: 25px;
 }
 
-.pf{
+/* Perfil y textos */
+.pf {
     font-size: 40px;
     padding: 20px;
 }
 
-.ancho-texto{
+.ancho-texto {
     max-width: 350px;
     color: white;
     text-align: left;
@@ -32,36 +44,122 @@ html{
     display: flex;
 }
 
-.fondo-boton{
+/* Botón */
+.fondo-boton {
     background-color: #C2B2B4;
     width: 60px;
 }
-.form-control{
+
+.form-control {
     border: none;
     border-bottom: 2px solid #C2B2B4;
     border-radius: 0;
 }
 
-
-
-.margen{
-    margin: 20%;
-}
-.rosa{
-    background-color: magenta;
-}
-.verde{
-    background-color: green;
+/* Efectos de las tarjetas */
+.card {
+    position: relative;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.3s ease;
 }
 
-
-@media(max-width:375px){
-    .margen .col{
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
+.card:hover {
+    transform: scale(1.05);
 }
+
+/* Imagen dentro de las tarjetas */
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+/* Overlay para el efecto de hover */
+.hover-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.hover-card:hover .overlay {
+    opacity: 1;
+}
+
+/* Cruz dentro del overlay */
+.cross {
+    color: white;
+    font-size: 2rem; /* Ajustar tamaño */
+    font-weight: bold;
+}
+
+/* Otros estilos */
+.line {
+    background-color: white;
+    height: 3px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.line-b {
+    background-color: black;
+    width: 100px;
+    height: 3px;
+    margin-top: 20px;
+}
+
+.Perfil {
+    width: 300px;
+    height: 300px;
+}
+
+.parrafo {
+    width: 400px;
+}
+
+.img-modal {
+    width: 200px;
+    height: 200px;
+}
+
+.btn_cv {
+    border-radius: 2px !important;
+    border-color: white !important;
+}
+
+.descarga {
+    height: 20px;
+    width: 20px;
+}
+
+.fondo {
+    background-color: rosybrown;
+}
+
+
+/* Footer */
+.fondo_footer {
+    background-color: slategrey;
+}
+
+.redes {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+
 
 
 /* Estilo general: formulario centrado */

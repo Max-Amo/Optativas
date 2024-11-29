@@ -160,6 +160,27 @@ html {
 }
 
 
+.btn-site {
+    background-color: #6B4E71;
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-site:hover {
+    background-color: #C2B2B4;
+    color: #6B4E71;
+    border-color: #6B4E71;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
 
 
 /* Estilo general: formulario centrado */

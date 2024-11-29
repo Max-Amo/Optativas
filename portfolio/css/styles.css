@@ -190,6 +190,11 @@ form {
     text-align: center;
 }
 
+.bg-footer {
+    background-color: #53687E; /* Color de fondo */
+}
+
+
 /* Media query para pantallas más grandes */
 @media (min-width: 600px) {
     form {
